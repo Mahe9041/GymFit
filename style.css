@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+/* font-family: 'Pacifico', cursive; */
+
+.top{
+    height: 100vh;
+    background-image: url(./static/images/dumbbell-1966247_1280.jpg);
+    color: white;
+}
+
+nav{
+    height: 5vh;
+}
+nav li{
+    list-style: none;
+    padding: .5rem;
+    /* font-family: 'Karla', sans-serif; */
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+nav li:hover{
+    background-color: white;
+    color: black;
+}
+
+nav ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1{
+    font-size: 5rem;
+    /* font-family: 'Karla', sans-serif; */
+    font-weight: 900;
+}
+
+.main p{
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5rem;
+}
+
+.galary{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galary h1{
+    height: 10vh;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.galaryshow{
+    width: 90vw;
+    height: 80vh;
+}
+
+.galaryshow img{
+    height: 80vh;
+}
