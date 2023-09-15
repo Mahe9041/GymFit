@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: 'Karla', sans-serif;
+    list-style: none;
 }
 
 /* font-family: 'Pacifico', cursive; */
@@ -15,7 +16,6 @@ nav{
     height: 5vh;
 }
 nav li{
-    list-style: none;
     padding: .5rem;
     /* font-family: 'Karla', sans-serif; */
     font-size: 1rem;
@@ -69,10 +69,202 @@ nav ol{
 }
 
 .galaryshow{
-    width: 90vw;
+    width: 70vw;
     height: 80vh;
 }
 
 .galaryshow img{
     height: 80vh;
+}
+
+/* trainer section css */
+
+.trainers{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    width: 95vw;
+}
+
+.trainerPic{
+    height: 75vh;
+    width: 25vw;
+    object-fit: cover;
+    transition: width .5s;
+}
+
+.card_train{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1px; */
+}
+
+.trainHead{
+    font-weight: 1000;
+    font-size: 3.5rem;
+}
+
+.TrainName{
+    font-weight: 1000;
+}
+
+.trainerPic:hover{
+    /* background-color: black; */
+    width: 500px;
+}
+
+/* registration page */
+
+.register{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.register h1{
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.registerPhoto{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.RegContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    height: 75vh;
+    width: 50vw;
+    background-color: white;
+}
+
+.regform{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:left;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.formdiv{
+    padding: 1rem;
+    width: 50%;
+}
+
+.formdiv button{
+    background-color: black;
+    color: white;
+    margin: 3rem 2rem;
+    border-radius: 1rem;
+
+}
+
+/* about us section */
+
+.AboutSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.AboutSec h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    padding: 1rem;
+    height: 15vh;
+}
+
+.AboutContainer{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.AboutContainer img{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.TextContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.TextContainer h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.TextContainer p{
+    font-size: 1rem;
+}
+
+/* contact us */
+
+.btnCon{
+    margin: 0rem 2rem;
+}
+
+/* footer */
+.footer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.contentFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    text-align: center;
+}
+
+.br{
+    height:1px;
+}
+
+.flink{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: left; */
 }
